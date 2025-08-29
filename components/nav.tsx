@@ -1,7 +1,7 @@
 import { useId } from "react";
-import { MicIcon, SearchIcon } from "lucide-react";
+import { SearchIcon } from "lucide-react";
 
-import Logo from "@/components/navbar-components/logo";
+import Logo from "@/components/ui/logo";
 import { Input } from "@/components/ui/input";
 import { NavActions } from "./ui/navBtns";
 
@@ -39,19 +39,6 @@ export default function Navbar() {
         </div>
         {/* Right side */}
         <NavActions />
-        {/* <div className="flex flex-1 items-center justify-end gap-2 max-sm:hidden">
-          <Button
-            asChild
-            variant="outline"
-            className="sm:w-24 sm:h-10 font-bold sm:text-[16px]"
-          >
-            <a href="#">Sign in</a>
-          </Button>
-          <Button asChild className=" sm:w-24 sm:h-10 font-bold sm:text-[16px]">
-            <a href="#">Sign up</a>
-          </Button>
-          <ThemeToggle />
-        </div> */}
       </div>
     </header>
   );
